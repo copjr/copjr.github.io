@@ -5,3 +5,13 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.gradient {
+  background: #bcf;
+  background: -webkit-radial-gradient(bottom, circle cover, rgba(34,102,187,0) 0%, white 500%);
+  background: -moz-radial-gradient(bottom, circle cover, rgba(34,102,187,0) 0%, white 500%);
+  background: -o-radial-gradient(bottom, circle cover, rgba(255,255,255,1) 0%, rgba(34,102,187,1) 500%);
+  background: radial-gradient(bottom, circle cover, rgba(34,102,187,0) 0%, white 500%);
+	padding-top: 40px;
+  height: 150px;
+}
+
