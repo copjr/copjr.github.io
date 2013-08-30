@@ -1,17 +1,41 @@
 body {
+	color: black;
   padding-top: 50px;
 }
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
+
 .gradient {
   background: #bcf;
   background: -webkit-radial-gradient(bottom, circle cover, rgba(34,102,187,0) 0%, white 500%);
   background: -moz-radial-gradient(bottom, circle cover, rgba(34,102,187,0) 0%, white 500%);
   background: -o-radial-gradient(bottom, circle cover, rgba(255,255,255,1) 0%, rgba(34,102,187,1) 500%);
   background: radial-gradient(bottom, circle cover, rgba(34,102,187,0) 0%, white 500%);
-	padding-top: 40px;
-  height: 150px;
+}
+
+.separator {
+	padding-bottom: 76px;
+}
+
+h2 {
+	padding: 20px 5%;
+	overflow: hidden;
+}
+
+h2 a, h2 i, h2 span {
+	line-height: 110px !important;
+}
+
+h2 a, h2 a:visited, h2 a:hover, h2 span {
+	text-decoration: none;
+	color: inherit;
+	float: left;
+}
+
+i {
+	float: right;
 }
 
