@@ -17,11 +17,13 @@ body {
 }
 
 .separator {
-	padding-bottom: 76px;
+	padding-bottom: 37px;
 }
 
 h2 {
-	padding: 20px 5%;
+	font-size: 40px;
+	margin-top: 0px;
+	padding: 0px 5%;
 	overflow: hidden;
 }
 
